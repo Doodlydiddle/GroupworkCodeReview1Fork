@@ -1,0 +1,35 @@
+body {
+    background-color: #C8B7A6;
+    color: black;
+}
+
+.navBar {
+    width: 100%;
+    top: 0;
+    padding: 10px;
+    display: inline-block;
+}
+
+.navBarButton {
+    float: right;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+}
+
+.navBarButton:hover {
+    cursor: pointer;
+}
+
+#homeButton, #titleButton {
+    float: left;
+}
+
+#frame {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
