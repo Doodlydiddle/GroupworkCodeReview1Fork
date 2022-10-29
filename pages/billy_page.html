@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- references -->
+    <!-- https://www.windowscentral.com/microsoft-has-had-profound-technological-and-social-global-impact -->
+    <head>
+        <meta charset="utf-8">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../general/css/main.css">
+    </head>
+    <body id="mainBody">
+        <div class="navBar">
+            <a class="navBarButton" id="homeButton" href="../index.html">Home</a>
+            <a class="navBarButton" id="titleButton" href="https://github.com/stevenaeola/proglabs_js/blob/main/formative_1/README.md">Prog Black Group Project</a>
+            <a class="navBarButton" href="Luke_page.html">Luke</a>
+            <a class="navBarButton" href="Raine_page.html">Raine</a>
+            <a class="navBarButton" href="">Billy</a>
+            <a class="navBarButton" href="">Nneka</a>
+        </div>
+        <hr>
+        <h1>Positive Applications in Computer Science</h1>
+        <div class="generalFrame">
+            <div class="paragraphFrame" id="frame1">
+                <h3>Microsoft in Education</h3>
+                <p><br>Microsoft are by far the most dominant technological force driving education currently. Their new developments in cloud solutions has allowed them to put new systems like Azure AD and Windows 365 in various Schools, Colleges and Universities</p>
+                <p>Alongside cloud solutions, they have been able to provide cheaper equipment that allows more students across the world to access online resources. Their range of Windows 10 S PC's and laptops allows students across the world to improve their workflow and quality of eduction drastically.</p>
+                <p>Source - https://www.windowscentral.com/microsoft-has-had-profound-technological-and-social-global-impact</p>
+            </div>
+            <div class="paragraphFrame" id="frame2">
+                <img class="imageClass" src="../img/education.webp" alt="MicrosoftImage">
+                <p>Source - https://www.windowscentral.com/microsoft-has-had-profound-technological-and-social-global-impact</p>
+            </div>
+        </div>
+        <hr>
+        <div class="paragraph">
+            <h3>Quantum Computation</h3>
+            <p>Quantum Computation is a new field of computer science which harnesses the power of atomic spin to allow us to compute infinitessimally more states than bits allow to let us compute problems that would have been impossible before on classical computers.</p>
+            <p>One such application is the use of Quantum Computers with drug development. The computers allow much better modelling than classical computers for checmical structures which lets scientists understand them better, making them much more effective. This has led to the discovery of new drugs and much needed improvements on currently existing ones.</p>
+            <p>Source - https://builtin.com/hardware/quantum-computing-applications</p>
+        </div>
+        <hr>
+        <div class="generalFrame">
+            <div class="paragraphFrame" id="frame3">
+                <img class="imageClass" src="../img/AI.avif" alt="image">
+                <p>Source - https://www.simplilearn.com/ice9/free_resources_article_thumb/Why-get-certified-in-Artificial-Intelligence.jpg</p>
+            </div>
+            <div class="paragraphFrame" id="frame4">
+                <h3>Artificial Intelligence</h3>
+                <p>The power that artificial intelligence has over the everyday world is un-parallel. One such use is how it helps in E-commerce. AI is used to analyse usage patterns for credit cards to prevent fraud. Alongside this, AI can be used to wittle out fake reveiws for certain products to reduce the chance of a customer buying it and it turns out to be a fake.</p>
+                <p>Another general use is in facial recognition software which we see all around us now. Most modern smartphones require some form of biometric to unlock it where the general one is facial recognition software. This has led to much better security for devices - all powered by AI!</p>
+                <p>Source - https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/artificial-intelligence-applications</p>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="https://linkedin.com/in/william-stapleton-57674b219">LinkedIn</a>
+            <a href="https://github.com/billy1479">Github</a>
+        </div>
+    </body>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* #mainBody {
+        } */
+
+        hr {
+            font-size: 2rem;
+        }
+
+        .imageClass {
+            width: 450px;
+        }
+
+        .footer {
+            display: inline-block;
+            bottom: 0;
+            padding: 10px;
+            margin: 5px;
+            width: 100%;
+            text-align: center;
+            border-top: 1px solid black;
+            border-radius: 5px 5px 5px 5px;
+        }
+
+        .footer a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: black;
+            margin: 10px;
+        }
+
+        .generalFrame {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .paragraphFrame {
+            text-align: left;
+            padding: 5px;
+        }
+
+        #frame1 {
+            flex: 50% 0;
+            border-right: 1px solid black;
+        }
+
+        #frame2 {
+            flex: 0 50%;
+            text-align: center;
+            border-left: 1px solid black;
+        }
+
+        #frame3 {
+            flex: 50%;
+            border-right: 1px solid black;
+            text-align: center;
+        }
+
+        #frame4 {
+            flex: 0 50%;
+            text-align: right;
+            border-left: 1px solid black;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 10px;
+            text-decoration: underline;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .paragraph {
+            width: 100%;
+            text-align: center;
+            padding: 5px;
+            margin: 5px;
+            display: block;
+        }
+    </style>
+</html>
