@@ -1,9 +1,11 @@
 <!doctype html>
-<html>
+<html> <!--FEEDBACK: Good practice to declare language-->
     <head>
     <title>Adverse impacts of Computer Science</title>
     <meta charset="UTF-8">
     <meta charset="utf-8">
+    <!-- FEEDBACK: No need to declare charset twice-->
+    
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -14,6 +16,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../general/css/main.css">
 </head>
+<!--FEEDBACK: Code not indented properly, makes it difficult to read-->
 <body>
     <div class="navBar">
         <a class="navBarButton" id="homeButton" href="../index.html">Home</a>
@@ -42,14 +45,16 @@
             <li>Advancements in nuclear research and  military technology increases the chance of nuclear warefare and thus the total wipeout of human life as we know it.</li>
             <li>Internet scams and other forms of cyber attacks could render certain members of the society vunerable</li>
         </ul>
-        <img src="..img/child_on_phone.jpg" alt = "child_on_phone"width = "800" height = "300">
+        <img src="..img/child_on_phone.jpg" alt = "child_on_phone"width = "800" height = "300"> <!--Image didn't load properly, potentially due to missing space betweem attributes-->
         <div class="footer">
             <a href="https://www.linkedin.com/in/nneka-k-r-ikeyi-ab25b41b9/">LinkedIn</a>
             <a href="https://github.com/Nnxik">Github</a>
             <a href=https://isaaccomputerscience.org/topics/impacts_of_tech?examBoard=all&stage=all">Github</a>
+            <!--FEEDBACK: Line above missing front quotations for href. Also link says Github but does not link to GitHub-->
         </div>
     </body>
-    <style>
+    <!--Stray style tags, should be in head. HTML defaults to putting it in the body, which is not allowed.-->
+    <style> 
         h1{
             text-align: center;
             color: red;
